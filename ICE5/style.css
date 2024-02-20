@@ -1,0 +1,72 @@
+#navbar {
+    border: 3px solid blue;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#navbar li:hover {
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#content {
+    margin: 20px;
+
+}
+
+.carousel {
+    border: 3px solid blue;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.carousel-item {
+    border: 2px solid red;
+    text-align: center;
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-control {
+    border: 3px solid yellow;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+}
+
+
+.next {
+    margin-left: 80%;
+}
+
+.image {
+    border: 4px solid black;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
