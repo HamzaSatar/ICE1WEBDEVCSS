@@ -1,0 +1,37 @@
+.interestImages {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/*From here
+https://stackoverflow.com/questions/67655096/bootstrap-5-form-group-form-row-form-inline-not-working*/
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.form-row>.col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*To here is all from the link above to help with the way my form looked*/
+
+#ErrorMessage {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
