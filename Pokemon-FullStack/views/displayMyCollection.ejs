@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs")%>
+
+
+    <h1>My Saved Pokemon Collection</h1>
+    <ul>
+        <% myCollection.forEach(pokemon=> { %>
+            <li>
+                <%= pokemon.name %> - <%= pokemon.type %>
+            </li>
+            <% }); %>
+    </ul>
+
+
+    <%- include("partials/footer.ejs")%>
